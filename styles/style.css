@@ -1,0 +1,12 @@
+p{
+    font-family:'Courier New', Courier, monospace
+}
+
+#pageTitle{
+    text-decoration: underline;
+}
+
+.customClass{
+    font-size: 50px;
+    font-weight: bold;
+}
