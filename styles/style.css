@@ -1,11 +1,31 @@
+/* 
+    Generic CSS selectors can be created to target a particular type of element.
+    In this case, all paragraphs in pages that are linked to this CSS file will be affected.
+*/
 p{
+    /* 
+        Some properties have more than one value.
+        In this case, font-family has fallback values, in case the main selected font is not available for the user.
+    */
     font-family:'Courier New', Courier, monospace
 }
 
+/*
+    The following selector targets any element with the pageTitle id. 
+    We build the selector starting with #
+*/
 #pageTitle{
+    /* 
+        All properties will follow this structure:   property: value;
+    */
     text-decoration: underline;
 }
 
+/* 
+    Classes are custom rules with a custom name that are then applied wherever we want. 
+    They are not applied automatically like generic selectors or using an element's id.
+    Classes start with a . 
+*/
 .customClass{
     font-size: 50px;
     font-weight: bold;
