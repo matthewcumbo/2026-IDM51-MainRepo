@@ -1,0 +1,49 @@
+/* 
+    The body selector styles the entire page
+*/
+body{
+    background-color: #3e3c3c;
+    color:white;
+}
+
+/* 
+    The div selector styles all div elements.
+    We removed styling from the div selector and added it to the .bigBox and .smallBox selectors.
+*/
+div {
+}
+
+/*
+    This class is used for the outer box in the example
+*/
+.bigBox{
+    display: flex;
+    height:50vh;
+    justify-content: space-around;
+}
+
+/*
+    This class is used for the inner boxes in the example
+*/
+.smallBox{
+    flex-grow:1;
+    margin-left:50px;
+    margin-right:50px;
+    padding-left:50px;
+    padding-right:50px;
+    border:1px solid black;
+}
+
+/*
+    This class is used to set a red background for divs with the class "smallBox" and "red"
+*/
+.smallBox.red{
+    background-color: #932121;
+}
+
+/*
+    This class is used to set a blue background for divs with the class "blue" inside an element with the class "bigBox"
+*/
+.bigBox .blue{
+    background-color: #4949c5;
+}
