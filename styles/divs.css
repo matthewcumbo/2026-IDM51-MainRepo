@@ -26,6 +26,7 @@ div {
     This class is used for the inner boxes in the example
 */
 .smallBox{
+    flex-basis: 0;
     flex-grow:1;
     margin-left:50px;
     margin-right:50px;
