@@ -76,6 +76,67 @@ main section h2{
     padding: 20px 50px 0px;
 }
 
+.mainDiv{
+    display: flex;
+}
 
+.mainDiv main{
+    flex:5;
+}
+
+.mainDiv aside{
+    flex:1;
+    background-color:#c5aa84;
+    padding: 20px 50px;
+}
+
+.mainDiv aside ul{
+    list-style: none;
+}
+
+.mainDiv aside ul li{
+    margin-top:10px;
+}
+
+.mainDiv aside ul li a{
+    text-decoration: none;
+    color:#000;
+}
 
 /* END MAIN STYLES*/
+
+
+/* FOOTER STYLES */
+footer{
+    display: flex;
+    background-color: #1b1c1d;
+    padding: 0 10%;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    margin-top:20px;
+}
+
+footer ul li a {
+    color:#fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    color:#c5aa84;
+}
+
+footer div{
+    flex:1;
+}
+
+footer .mapDiv{
+    padding:20px;
+}
+
+
+/* END FOOTER STYLES */
