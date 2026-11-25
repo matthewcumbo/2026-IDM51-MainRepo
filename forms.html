@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="styles/forms.css">
+</head>
+<body>
+    
+    <form action="mailto:asdf@qwerty.com" 
+            method="post" 
+            enctype="text/plain">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username" required>
+            </div>
+            
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            
+            <div>
+                <label for="confirm">Confirm Password:</label>
+                <input type="password" name="confirm" id="confirm" required>
+            </div>
+            
+            <div>
+                <p>Age Group:</p>
+                
+                <input type="radio" name="age" id="age1" value="1">
+                <label for="">15 - 20</label>
+                <br>
+                <input type="radio" name="age" id="age2" value="2">
+                <label for="">21 - 30</label>
+                <br>
+                <input type="radio" name="age" id="age3" value="3">
+                <label for="">31 - 40</label>
+                <br>
+                <input type="radio" name="age" id="age4" value="4">
+                <label for="">41 +</label>
+                
+            </div>
+            
+            <div>
+                <p>Interests:</p>
+                
+                <input type="checkbox" name="gaming" id="gaming">
+                <label for="">Gaming</label>
+                <br>
+                <input type="checkbox" name="music" id="music">
+                <label for="">Music</label>
+                <br>
+                <input type="checkbox" name="reading" id="reading">
+                <label for="">Reading</label>
+                <br>
+                <input type="checkbox" name="motorcycles" id="motorcycles">
+                <label for="">Motorcycles</label>
+                <br>
+                
+                
+                
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div>
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="phone" id="phone">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Account Settings</legend>
+
+            <div>
+                <label for="accountType">Account Type:</label>
+                <select name="accountType" id="accountType">
+                    <option value="" disabled selected>Select an account type</option>
+                    <option value="1">User</option>
+                    <option value="2">Admin</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="bio">Bio:</label>
+                <textarea name="bio" id="bio"
+                    cols="30" rows="10"></textarea>
+            </div>
+
+        </fieldset>
+        
+        <div>
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+        </div>
+        
+    </form>
+    
+</body>
+</html>
