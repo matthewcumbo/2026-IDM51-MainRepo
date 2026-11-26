@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap | Basics</title>
+    <!-- 
+        To use Bootstrap's styling system (classes), we add a link to their CSS file.
+    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MKn5NWVBEuQXJE7TSKSgPUmMiSCmVTfCsR+VSSeQpHnoyJQZZFn/kBn+Ht5jZDPQ" crossorigin="anonymous">
+    <!-- 
+        We can also add more CSS files, so that we override certain things from Bootstrap with our own styling.
+    -->
+</head>
+<body>
+
+    <!-- 
+        Following the documentation on the Bootstrap website, we can style our HTML using the predefined classes as shown below.
+    -->
+    <div class="bg-subtle-secondary mt-2 mx-6 p-6 border border-primary rounded-3">
+        <h1 class="fg-primary">Bootstrap Basics</h1>
+        <p class="fg-warning">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo voluptate sit optio earum odio fugiat alias ex obcaecati! Ex nulla ratione necessitatibus iusto vero pariatur eveniet odit deserunt sint possimus!
+        </p>
+        <a href="" class="fg-danger">This is a link!</a>
+    </div>
+
+<!-- 
+    We always need to link the Bootstrap JS code. This allows us to use the interactive elements, such as Drop Down Menus, Carousels, etc
+-->
+<script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-+PW0IDVGGwmpaBQvcXY+W0BcpHpITFB3dSfSoGvDdHtLbrLpSbpGcvtQRM/BJpz+" crossorigin="anonymous"></script>
+</body>
+</html>

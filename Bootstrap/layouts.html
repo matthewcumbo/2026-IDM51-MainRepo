@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap | Layouts</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MKn5NWVBEuQXJE7TSKSgPUmMiSCmVTfCsR+VSSeQpHnoyJQZZFn/kBn+Ht5jZDPQ" crossorigin="anonymous">
+</head>
+<body>
+    
+    <!-- 
+        The following example shows how we can use the Bootstrap layout system. 
+        It utilises the flexbox system to place elements in a dynamic structure.
+        This structure should always follow the Container > Row > Col template.
+    -->
+    <div class="container bg-subtle-secondary">
+        <div class="row">
+            <div class="col border border-black">
+                <p>Col 1</p> 
+            </div>
+            <div class="col border border-black">
+                <p>Col 2</p>
+            </div>
+            <div class="col border border-black">
+                <p>Col 3</p> 
+            </div>
+            <div class="col border border-black">
+                <p>Col 4</p> 
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-4 border border-black">
+                <p>Col-4</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum delectus libero possimus, ea magnam debitis dolor amet vel! Nulla, ipsa. Reprehenderit voluptate eius quos distinctio, inventore vero iusto et accusantium.
+                </p>
+            </div>
+            <div class="col-8 border border-black">
+                <p>Col-8</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium vitae doloremque, qui laboriosam alias exercitationem eos optio accusantium ducimus eligendi architecto eveniet. Magnam quod quisquam aliquam veniam. Eius, ratione totam!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-+PW0IDVGGwmpaBQvcXY+W0BcpHpITFB3dSfSoGvDdHtLbrLpSbpGcvtQRM/BJpz+" crossorigin="anonymous"></script>
+</body>
+</html>
